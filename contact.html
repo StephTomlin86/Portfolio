@@ -1,31 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!--Nav bar-->
-   <nav class= "navbar navbar-expand-sm navbar-dark bg-dark">
-       <a href="#" class="navbar-brand">Steph Tomlin</a>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Steph Tomlin</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-        <span class="navbar-toggler-icon"></span> 
-    </button>
-       <div class="collapse navbar-collapse" id="navbarMenu">
-       <ul class="navbar-nav">
-           <li class="nav-item">
-               <a href="index.html" class="nav-link">About</a>
-               <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">About</a>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
                 <li class="nav-item">
                     <a href="portfolio.html" class="nav-link">Portfolio</a>
-           </li>
-       </ul>
-    </div>
-   </nav>
-   <a class="nav-link" href="link to portfolio"
- 
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <a class="nav-link" href="link to portfolio"></a>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Contact Me Form-->
+    <div class="row">
+        <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mailto:tomlin.steph@gmail.com" method="POST">
+                <!--Your Name Section-->
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center text-center">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control" />
+                            <label for="name" class="darkwhite">Your name</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Your email section-->
+                <div class="row">
+                    <div class="col-md-12 text-center d-flex justify-content-center">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control" />
+                            <label for="email" class="darkwhite">Your email</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Your message section-->
+                <div class="row">
+                    <div class="col-md-12 text-center d-flex justify-content-center">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2"
+                                class="form-control md-textarea"></textarea>
+                            <label for="message" class="darkwhite">Your message</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Submit button-->
+                <div class="text-center text-md-left d-flex justify-content-center">
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+    </section>
+
+</body>
