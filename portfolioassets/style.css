@@ -1,81 +1,76 @@
-
 body {
-    height: 100%;
-    background-color:goldenrod;
+  height: 100%;
+  background-color: goldenrod;
 }
 
-
 .navbar {
-    background-color: dodgerblue;
+  background-color: dodgerblue;
 }
 
 #profile-photo {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .white {
-    color:white;
+  color: white;
 }
 
 .gray {
-    color: #17252a;
+  color: #17252a;
 }
 
 .darkwhite {
-    color: #def2f1;
+  color: whitesmoke;
 }
 
 .container h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 500;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
 }
 
 .container h2 {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .container h3 {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .container li {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .biography p {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    padding: 1rem;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  padding: 1rem;
 }
 
 .biography ul {
-    list-style: none;
+  list-style: none;
 }
 
 .biography li {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .portfolio-img {
-    max-width: 300px;
-    max-height: 300px;
-    width: 100%;
-    height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .projects {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 form {
-    margin: 1rem;
-
+  margin: 1rem;
 }
 
 .biography {
-
-    margin: 1rem;
+  margin: 1rem;
 }
-.space-between { height: 10px;
-
-
+.space-between {
+  height: 10px;
 }
